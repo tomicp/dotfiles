@@ -1,0 +1,3 @@
+[2020-07-30 23:46:31.411] [sharedprocess] [info] main {"machineId":"ebba9f7df89fcfbe7efbd44394139265f9b84d4a81af2ddabc5c843ee5fd008a","windowId":2}
+[2020-07-30 23:46:31.500] [sharedprocess] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/tomicp/.config/VSCodium/User/snippets'
+[2020-07-30 23:47:11.475] [sharedprocess] [info] Starting to clean up unused language packs.

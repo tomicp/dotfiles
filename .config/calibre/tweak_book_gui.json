@@ -1,0 +1,43 @@
+{
+  "check-book-splitter-state": {
+    "__class__": "bytearray", 
+    "__value__": "AAAA/wAAAAEAAAACAAAARgAAAEYA/////wEAAAABAA=="
+  }, 
+  "find-widget-state": {
+    "case_sensitive": false, 
+    "direction": "down", 
+    "dot_all": false, 
+    "mode": "normal", 
+    "where": "current", 
+    "wrap": true
+  }, 
+  "import-foreign-geometry": {
+    "__class__": "bytearray", 
+    "__value__": "AdnQywADAAAAAAF8AAABCQAAA3QAAAHKAAABfQAAAQoAAANzAAAByQAAAAAAAAAABQAAAAF9AAABCgAAA3MAAAHJ"
+  }, 
+  "main_window_geometry": {
+    "__class__": "bytearray", 
+    "__value__": "AdnQywADAAAAAAAFAAAAGAAAArsAAAMaAAAABgAAABkAAAK6AAADGQAAAAAAAAAABQAAAAAGAAAAGQAAAroAAAMZ"
+  }, 
+  "main_window_state": {
+    "__class__": "bytearray", 
+    "__value__": "AAAA/wAAAAD9AAAABAAAAAAAAADAAAACrvwCAAAABfsAAAAkAGYAaQBsAGUAcwAtAGIAcgBvAHcAcwBlAHIALQBkAG8AYwBrAQAAAD0AAAKuAAAAWQD////7AAAAHgB0AG8AYwAtAHYAaQBlAHcAZQByAC0AZABvAGMAawAAAAAA/////wAAAFkA////+wAAACAAdABlAHgAdAAtAHMAZQBhAHIAYwBoAC0AZABvAGMAawAAAAAA/////wAAAHwA////+wAAACAAYwBoAGUAYwBrAHAAbwBpAG4AdABzAC0AZABvAGMAawAAAAAA/////wAAAIoA////+wAAACYAcwBhAHYAZQBkAC0AcwBlAGEAcgBjAGgAZQBzAC0AZABvAGMAawAAAAAA/////wAAAgcA////AAAAAQAAAWoAAAKu/AIAAAAC+wAAABgAcAByAGUAdgBpAGUAdwAtAGQAbwBjAGsBAAAAPQAAAq4AAABAAP////sAAAAaAGwAaQB2AGUALQBjAHMAcwAtAGQAbwBjAGsAAAAAAP////8AAABZAP///wAAAAIAAAAAAAAAAPwBAAAAAfsAAAAeAGMAaABlAGMAawAtAGIAbwBvAGsALQBkAG8AYwBrAAAAAAD/////AAAAkAD///8AAAADAAAAAAAAAAD8AQAAAAH7AAAAHABpAG4AcwBwAGUAYwB0AG8AcgAtAGQAbwBjAGsAAAAAAP////8AAAA6AP///wAAAH8AAAKuAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAMAAAAUAGcAbABvAGIAYQBsAC0AYgBhAHIBAAAAAP////8AAAAAAAAAAAAAABIAdABvAG8AbABzAC0AYgBhAHIBAAABJv////8AAAAAAAAAAAAAABYAcABsAHUAZwBpAG4AcwAtAGIAYQByAAAAAAD/////AAAAAAAAAAA="
+  }, 
+  "recent-books": [
+    "/tmp/mozilla_tomicp0/Building REST APIs with Flask.epub", 
+    "/home/tomicp/Documents/eBooks/progit.epub"
+  ], 
+  "reports-ui-state": {}, 
+  "saved_seaches_state": {
+    "direction": "down", 
+    "where": "current", 
+    "wrap": true
+  }, 
+  "search-panel-visible": false, 
+  "text_search_widget_state": {
+    "case_sensitive": false, 
+    "dot_all": true, 
+    "mode": "normal", 
+    "where": "current"
+  }
+}

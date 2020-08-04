@@ -1,0 +1,20 @@
+Looking for git in: git
+Using git 2.28.0 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/tomicp/PycharmProjects/Giraffe
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/tomicp/PycharmProjects/Giraffe/app.py
+fatal: your current branch 'master' does not have any commits yet
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :app.py
+> git ls-files --stage -- /home/tomicp/PycharmProjects/Giraffe/app.py
+> git check-ignore -v -z --stdin
+> git cat-file -s 89d78bc0b9c2c18a1dc570ab6da5a9bc0d5b25d2

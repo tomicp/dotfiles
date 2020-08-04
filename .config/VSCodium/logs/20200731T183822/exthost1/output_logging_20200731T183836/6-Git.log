@@ -1,0 +1,51 @@
+Looking for git in: git
+Using git 2.28.0 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/tomicp/PycharmProjects/Giraffe
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :app.py
+> git ls-files --stage -- /home/tomicp/PycharmProjects/Giraffe/app.py
+> git cat-file -s 89d78bc0b9c2c18a1dc570ab6da5a9bc0d5b25d2
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :.vscode/settings.json
+> git ls-files --stage -- /home/tomicp/PycharmProjects/Giraffe/.vscode/settings.json
+> git show --textconv :.idea/Giraffe.iml
+> git ls-files --stage -- /home/tomicp/PycharmProjects/Giraffe/.idea/Giraffe.iml
+> git cat-file -s 74d515a027de98657e9d3d5f0f1831882fd81374
+> git show --textconv :.idea/.gitignore
+> git ls-files --stage -- /home/tomicp/PycharmProjects/Giraffe/.idea/.gitignore
+> git cat-file -s 26d33521af10bcc7fd8cea344038eaaeb78d0ef5
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n27 -- /home/tomicp/PycharmProjects/Giraffe/.idea/.gitignore
+fatal: your current branch 'master' does not have any commits yet
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n25 -- /home/tomicp/PycharmProjects/Giraffe/app.py
+fatal: your current branch 'master' does not have any commits yet
+> git show --textconv :app.py
+> git ls-files --stage -- /home/tomicp/PycharmProjects/Giraffe/app.py
+> git cat-file -s 89d78bc0b9c2c18a1dc570ab6da5a9bc0d5b25d2
+> git check-ignore -v -z --stdin
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/tomicp/PycharmProjects/Giraffe/venv/pyvenv.cfg
+fatal: your current branch 'master' does not have any commits yet
+> git show --textconv :venv/pyvenv.cfg
+> git ls-files --stage -- /home/tomicp/PycharmProjects/Giraffe/venv/pyvenv.cfg
+> git cat-file -s 23cfcaa217bb4d09446ce1e2686d91312da3a0e1
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/tomicp/PycharmProjects/Giraffe/app.py
+fatal: your current branch 'master' does not have any commits yet
+> git show --textconv :app.py
+> git ls-files --stage -- /home/tomicp/PycharmProjects/Giraffe/app.py
+> git cat-file -s 89d78bc0b9c2c18a1dc570ab6da5a9bc0d5b25d2

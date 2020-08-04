@@ -1,0 +1,20 @@
+[2020-07-31 07:34:45.354] [exthost] [info] extension host started
+[2020-07-31 07:34:45.649] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2020-07-31 07:34:45.659] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/vscodium-bin/resources/app/extensions/debug-auto-launch/dist/extension
+[2020-07-31 07:34:45.682] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2020-07-31 07:34:45.683] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/vscodium-bin/resources/app/extensions/emmet/dist/extension
+[2020-07-31 07:34:45.763] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2020-07-31 07:34:45.766] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/vscodium-bin/resources/app/extensions/git/dist/main
+[2020-07-31 07:34:45.842] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":true,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"*"}
+[2020-07-31 07:34:45.845] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/vscodium-bin/resources/app/extensions/github-authentication/dist/extension.js
+[2020-07-31 07:34:45.863] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2020-07-31 07:34:45.872] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/vscodium-bin/resources/app/extensions/merge-conflict/dist/mergeConflictMain
+[2020-07-31 07:34:45.876] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication {"startup":true,"extensionId":{"value":"vscode.microsoft-authentication","_lower":"vscode.microsoft-authentication"},"activationEvent":"*"}
+[2020-07-31 07:34:45.881] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/vscodium-bin/resources/app/extensions/microsoft-authentication/dist/extension.js
+[2020-07-31 07:34:45.898] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2020-07-31 07:34:45.901] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/vscodium-bin/resources/app/extensions/search-result/dist/extension.js
+[2020-07-31 07:34:45.905] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.sublime-keybindings {"startup":true,"extensionId":{"value":"ms-vscode.sublime-keybindings","_lower":"ms-vscode.sublime-keybindings"},"activationEvent":"*"}
+[2020-07-31 07:34:45.905] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/tomicp/.vscode-oss/extensions/ms-vscode.sublime-keybindings-4.0.6/out/extension
+[2020-07-31 07:34:47.968] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2020-07-31 07:34:47.969] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/vscodium-bin/resources/app/extensions/github/dist/extension.js
+[2020-07-31 07:34:48.080] [exthost] [info] eager extensions activated

@@ -1,0 +1,83 @@
+<application>
+  <component name="ProjectJdkTable">
+    <jdk version="2">
+      <name value="Python 3.8 (Giraffe)" />
+      <type value="Python SDK" />
+      <version value="Python 3.8.5" />
+      <homePath value="$USER_HOME$/PycharmProjects/Giraffe/venv/bin/python" />
+      <roots>
+        <classPath>
+          <root type="composite">
+            <root url="file:///usr/lib/python3.8" type="simple" />
+            <root url="file:///usr/lib/python3.8/lib-dynload" type="simple" />
+            <root url="file://$USER_HOME$/PycharmProjects/Giraffe/venv/lib/python3.8/site-packages" type="simple" />
+            <root url="file://$USER_HOME$/.cache/JetBrains/PyCharmCE2020.2/python_stubs/-1631199504" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/python-skeletons" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/stdlib/3.7" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/stdlib/3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/stdlib/2and3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/third_party/3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/third_party/2and3" type="simple" />
+          </root>
+        </classPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional ASSOCIATED_PROJECT_PATH="$USER_HOME$/PycharmProjects/Giraffe" />
+    </jdk>
+    <jdk version="2">
+      <name value="Python 3.8" />
+      <type value="Python SDK" />
+      <version value="Python 3.8.5" />
+      <homePath value="/usr/bin/python3.8" />
+      <roots>
+        <classPath>
+          <root type="composite">
+            <root url="file:///usr/lib/python3.8" type="simple" />
+            <root url="file:///usr/lib/python3.8/lib-dynload" type="simple" />
+            <root url="file://$USER_HOME$/.local/lib/python3.8/site-packages" type="simple" />
+            <root url="file:///usr/lib/python3.8/site-packages" type="simple" />
+            <root url="file://$USER_HOME$/.cache/JetBrains/PyCharmCE2020.2/python_stubs/-1247971761" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/python-skeletons" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/stdlib/3.7" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/stdlib/3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/stdlib/2and3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/third_party/3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/third_party/2and3" type="simple" />
+          </root>
+        </classPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional />
+    </jdk>
+    <jdk version="2">
+      <name value="Python 3.8 (Invoice_2020)" />
+      <type value="Python SDK" />
+      <version value="Python 3.8.5" />
+      <homePath value="$USER_HOME$/PycharmProjects/Invoice_2020/venv/bin/python" />
+      <roots>
+        <classPath>
+          <root type="composite">
+            <root url="file:///usr/lib/python3.8" type="simple" />
+            <root url="file:///usr/lib/python3.8/lib-dynload" type="simple" />
+            <root url="file://$USER_HOME$/PycharmProjects/Invoice_2020/venv/lib/python3.8/site-packages" type="simple" />
+            <root url="file://$USER_HOME$/.cache/JetBrains/PyCharmCE2020.2/python_stubs/2056253196" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/python-skeletons" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/stdlib/3.7" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/stdlib/3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/stdlib/2and3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/third_party/3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/third_party/2and3" type="simple" />
+          </root>
+        </classPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional ASSOCIATED_PROJECT_PATH="$USER_HOME$/PycharmProjects/Invoice_2020" />
+    </jdk>
+  </component>
+</application>

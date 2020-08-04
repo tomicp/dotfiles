@@ -1,0 +1,26 @@
+[2020-08-01 18:58:28.894] [sharedprocess] [info] main {"machineId":"ebba9f7df89fcfbe7efbd44394139265f9b84d4a81af2ddabc5c843ee5fd008a","windowId":2}
+[2020-08-01 18:59:08.925] [sharedprocess] [info] Starting to clean up unused language packs.
+[2020-08-01 18:59:27.273] [sharedprocess] [info] Installing extension: dsebastien.vscode-python-pack
+[2020-08-01 18:59:27.798] [sharedprocess] [info] Downloaded extension: dsebastien.vscode-python-pack /home/tomicp/.config/Code - OSS/CachedExtensionVSIXs/dsebastien.vscode-python-pack-1.4.0
+[2020-08-01 18:59:27.870] [sharedprocess] [info] Extracted extension to /home/tomicp/.vscode-oss/extensions/.dsebastien.vscode-python-pack-1.4.0: dsebastien.vscode-python-pack
+[2020-08-01 18:59:27.871] [sharedprocess] [info] Renamed to /home/tomicp/.vscode-oss/extensions/dsebastien.vscode-python-pack-1.4.0
+[2020-08-01 18:59:27.872] [sharedprocess] [info] Installation completed. dsebastien.vscode-python-pack
+[2020-08-01 18:59:28.266] [sharedprocess] [info] Installing extension: donjayamanne.python-extension-pack
+[2020-08-01 18:59:28.268] [sharedprocess] [info] Installing extension: almenon.arepl
+[2020-08-01 18:59:28.268] [sharedprocess] [info] Installing extension: mgesbert.python-path
+[2020-08-01 18:59:28.767] [sharedprocess] [info] Downloaded extension: donjayamanne.python-extension-pack /home/tomicp/.config/Code - OSS/CachedExtensionVSIXs/donjayamanne.python-extension-pack-1.6.0
+[2020-08-01 18:59:28.801] [sharedprocess] [info] Extracted extension to /home/tomicp/.vscode-oss/extensions/.donjayamanne.python-extension-pack-1.6.0: donjayamanne.python-extension-pack
+[2020-08-01 18:59:28.801] [sharedprocess] [info] Renamed to /home/tomicp/.vscode-oss/extensions/donjayamanne.python-extension-pack-1.6.0
+[2020-08-01 18:59:28.803] [sharedprocess] [info] Installation completed. donjayamanne.python-extension-pack
+[2020-08-01 18:59:29.011] [sharedprocess] [info] Extensions installed successfully: donjayamanne.python-extension-pack
+[2020-08-01 18:59:29.373] [sharedprocess] [info] Downloaded extension: mgesbert.python-path /home/tomicp/.config/Code - OSS/CachedExtensionVSIXs/mgesbert.python-path-0.0.11
+[2020-08-01 18:59:29.437] [sharedprocess] [info] Downloaded extension: almenon.arepl /home/tomicp/.config/Code - OSS/CachedExtensionVSIXs/almenon.arepl-1.0.24
+[2020-08-01 18:59:30.120] [sharedprocess] [info] Extracted extension to /home/tomicp/.vscode-oss/extensions/.mgesbert.python-path-0.0.11: mgesbert.python-path
+[2020-08-01 18:59:30.121] [sharedprocess] [info] Renamed to /home/tomicp/.vscode-oss/extensions/mgesbert.python-path-0.0.11
+[2020-08-01 18:59:30.125] [sharedprocess] [info] Installation completed. mgesbert.python-path
+[2020-08-01 18:59:30.179] [sharedprocess] [info] Extensions installed successfully: mgesbert.python-path
+[2020-08-01 18:59:31.450] [sharedprocess] [info] Extracted extension to /home/tomicp/.vscode-oss/extensions/.almenon.arepl-1.0.24: almenon.arepl
+[2020-08-01 18:59:31.451] [sharedprocess] [info] Renamed to /home/tomicp/.vscode-oss/extensions/almenon.arepl-1.0.24
+[2020-08-01 18:59:31.453] [sharedprocess] [info] Installation completed. almenon.arepl
+[2020-08-01 18:59:31.509] [sharedprocess] [info] Extensions installed successfully: almenon.arepl
+[2020-08-01 18:59:31.510] [sharedprocess] [info] Extensions installed successfully: dsebastien.vscode-python-pack

@@ -1,0 +1,7 @@
+{
+    "window.titleBarStyle": "custom",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.languageServer": "Microsoft",
+    "workbench.iconTheme": "vscode-great-icons"
+}

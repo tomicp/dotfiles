@@ -1,0 +1,16 @@
+[Info  - 4:32:52 PM] Analysis cache path: /home/tomicp/.cache/Microsoft/Python Language Server
+[Info  - 4:32:52 PM] Microsoft Python Language Server version 0.5.51.0
+[Info  - 4:32:52 PM] Workspace root: /home/tomicp/Works/materials/rp-portfolio
+[Info  - 4:32:52 PM] GetCurrentSearchPaths /usr/bin/python 
+[Info  - 4:32:53 PM] Interpreter search paths:
+[Info  - 4:32:53 PM]     /usr/lib/python3.8
+[Info  - 4:32:53 PM]     /usr/lib/python3.8/lib-dynload
+[Info  - 4:32:53 PM]     /home/tomicp/.local/lib/python3.8/site-packages
+[Info  - 4:32:53 PM]     /usr/lib/python3.8/site-packages
+[Info  - 4:32:53 PM] User search paths:
+2020-08-02 15:32:55.834065985 [W:onnxruntime:, graph.cc:814 Graph] Initializer embeddings_matrix:0_quantized appears in graph inputs and will not be treated as constant value/weight. This may fail some of the graph optimizations, like const folding. Move it out of graph inputs if there is no need to override it, by either re-generating the model with latest exporter/converter or with the tool onnxruntime/tools/python/remove_initializer_from_input.py.
+2020-08-02 15:32:55.834148187 [W:onnxruntime:, graph.cc:814 Graph] Initializer embeddings_matrix:0_scale appears in graph inputs and will not be treated as constant value/weight. This may fail some of the graph optimizations, like const folding. Move it out of graph inputs if there is no need to override it, by either re-generating the model with latest exporter/converter or with the tool onnxruntime/tools/python/remove_initializer_from_input.py.
+2020-08-02 15:32:55.834168581 [W:onnxruntime:, graph.cc:814 Graph] Initializer embeddings_matrix:0_zero_point appears in graph inputs and will not be treated as constant value/weight. This may fail some of the graph optimizations, like const folding. Move it out of graph inputs if there is no need to override it, by either re-generating the model with latest exporter/converter or with the tool onnxruntime/tools/python/remove_initializer_from_input.py.
+2020-08-02 15:32:55.834213628 [W:onnxruntime:, graph.cc:814 Graph] Initializer fixed_quantization_range_uint8 appears in graph inputs and will not be treated as constant value/weight. This may fail some of the graph optimizations, like const folding. Move it out of graph inputs if there is no need to override it, by either re-generating the model with latest exporter/converter or with the tool onnxruntime/tools/python/remove_initializer_from_input.py.
+2020-08-02 15:32:55.834234790 [W:onnxruntime:, graph.cc:814 Graph] Initializer fixed_zero appears in graph inputs and will not be treated as constant value/weight. This may fail some of the graph optimizations, like const folding. Move it out of graph inputs if there is no need to override it, by either re-generating the model with latest exporter/converter or with the tool onnxruntime/tools/python/remove_initializer_from_input.py.
+[Info  - 4:33:00 PM] Initializing for /usr/bin/python

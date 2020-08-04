@@ -1,0 +1,98 @@
+[2020-07-31 07:32:27.946] [exthost] [info] extension host started
+[2020-07-31 07:32:28.638] [exthost] [info] ExtensionService#_doActivateExtension vscode.python {"startup":false,"extensionId":{"value":"vscode.python","_lower":"vscode.python"},"activationEvent":"onLanguage:python"}
+[2020-07-31 07:32:28.638] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/vscodium-bin/resources/app/extensions/python/dist/pythonMain
+[2020-07-31 07:32:28.643] [exthost] [info] ExtensionService#_doActivateExtension batisteo.vscode-django {"startup":false,"extensionId":{"value":"batisteo.vscode-django","_lower":"batisteo.vscode-django"},"activationEvent":"onLanguage:python"}
+[2020-07-31 07:32:28.643] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/tomicp/.vscode-oss/extensions/batisteo.vscode-django-0.20.0/out/extension
+[2020-07-31 07:32:28.737] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python {"startup":false,"extensionId":{"value":"ms-python.python","_lower":"ms-python.python"},"activationEvent":"onLanguage:python"}
+[2020-07-31 07:32:28.737] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/tomicp/.vscode-oss/extensions/ms-python.python-2020.7.0/out/client/extension
+[2020-07-31 07:32:29.552] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2020-07-31 07:32:29.559] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/vscodium-bin/resources/app/extensions/debug-auto-launch/dist/extension
+[2020-07-31 07:32:29.567] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2020-07-31 07:32:29.578] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/vscodium-bin/resources/app/extensions/emmet/dist/extension
+[2020-07-31 07:32:29.631] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2020-07-31 07:32:29.632] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/vscodium-bin/resources/app/extensions/git/dist/main
+[2020-07-31 07:32:29.731] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":true,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"*"}
+[2020-07-31 07:32:29.741] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/vscodium-bin/resources/app/extensions/github-authentication/dist/extension.js
+[2020-07-31 07:32:29.780] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2020-07-31 07:32:29.787] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/vscodium-bin/resources/app/extensions/merge-conflict/dist/mergeConflictMain
+[2020-07-31 07:32:29.801] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication {"startup":true,"extensionId":{"value":"vscode.microsoft-authentication","_lower":"vscode.microsoft-authentication"},"activationEvent":"*"}
+[2020-07-31 07:32:29.810] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/vscodium-bin/resources/app/extensions/microsoft-authentication/dist/extension.js
+[2020-07-31 07:32:29.841] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2020-07-31 07:32:29.841] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/vscodium-bin/resources/app/extensions/search-result/dist/extension.js
+[2020-07-31 07:32:29.846] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.sublime-keybindings {"startup":true,"extensionId":{"value":"ms-vscode.sublime-keybindings","_lower":"ms-vscode.sublime-keybindings"},"activationEvent":"*"}
+[2020-07-31 07:32:29.846] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/tomicp/.vscode-oss/extensions/ms-vscode.sublime-keybindings-4.0.6/out/extension
+[2020-07-31 07:32:31.428] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2020-07-31 07:32:31.436] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/vscodium-bin/resources/app/extensions/github/dist/extension.js
+[2020-07-31 07:32:35.908] [exthost] [info] eager extensions activated
+[2020-07-31 07:32:38.496] [exthost] [error] [ms-python.python] provider FAILED
+[2020-07-31 07:32:38.502] [exthost] [error] Error: [ms-python.python]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+	at a (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:594:75)
+	at Object.t.checkProposedApiEnabled (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:594:437)
+	at Object.get activeNotebookEditor [as activeNotebookEditor] (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:925:680)
+	at u.get activeNotebookEditor [as activeNotebookEditor] (/home/tomicp/.vscode-oss/extensions/ms-python.python-2020.7.0/out/client/extension.js:46:525796)
+	at g.provideCodeLenses (/home/tomicp/.vscode-oss/extensions/ms-python.python-2020.7.0/out/client/extension.js:48:226369)
+	at /usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:666:744
+	at /usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:51:761
+	at new Promise (<anonymous>)
+	at Object.t.asPromise (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:51:733)
+	at _.provideCodeLenses (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:666:715)
+	at /usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:687:816
+	at K._withAdapter (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:686:499)
+	at K.$provideCodeLenses (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:687:794)
+	at m._doInvokeHandler (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:801:683)
+	at m._invokeHandler (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:801:375)
+	at m._receiveRequest (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:799:953)
+	at m._receiveOneMessage (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:798:832)
+	at /usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:797:34
+	at l.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:45:801)
+	at v.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:235:849)
+	at /usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:975:744
+	at l.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:45:801)
+	at v.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:235:849)
+	at t.PersistentProtocol._receiveMessage (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:240:276)
+	at /usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:237:357
+	at l.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:45:801)
+	at p.acceptChunk (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:233:393)
+	at /usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:232:753
+	at Socket.t (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:241:826)
+	at Socket.emit (events.js:203:13)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:276:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2020-07-31 07:32:45.606] [exthost] [error] [ms-python.python] provider FAILED
+[2020-07-31 07:32:45.607] [exthost] [error] Error: [ms-python.python]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+	at a (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:594:75)
+	at Object.t.checkProposedApiEnabled (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:594:437)
+	at Object.get activeNotebookEditor [as activeNotebookEditor] (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:925:680)
+	at u.get activeNotebookEditor [as activeNotebookEditor] (/home/tomicp/.vscode-oss/extensions/ms-python.python-2020.7.0/out/client/extension.js:46:525796)
+	at g.provideCodeLenses (/home/tomicp/.vscode-oss/extensions/ms-python.python-2020.7.0/out/client/extension.js:48:226369)
+	at /usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:666:744
+	at /usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:51:761
+	at new Promise (<anonymous>)
+	at Object.t.asPromise (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:51:733)
+	at _.provideCodeLenses (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:666:715)
+	at /usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:687:816
+	at K._withAdapter (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:686:499)
+	at K.$provideCodeLenses (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:687:794)
+	at m._doInvokeHandler (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:801:683)
+	at m._invokeHandler (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:801:375)
+	at m._receiveRequest (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:799:953)
+	at m._receiveOneMessage (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:798:832)
+	at /usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:797:34
+	at l.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:45:801)
+	at v.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:235:849)
+	at /usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:975:744
+	at l.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:45:801)
+	at v.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:235:849)
+	at t.PersistentProtocol._receiveMessage (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:240:276)
+	at /usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:237:357
+	at l.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:45:801)
+	at p.acceptChunk (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:233:393)
+	at /usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:232:753
+	at Socket.t (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:241:826)
+	at Socket.emit (events.js:203:13)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:276:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)

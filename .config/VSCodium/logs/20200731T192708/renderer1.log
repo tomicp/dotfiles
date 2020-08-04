@@ -1,0 +1,161 @@
+[2020-07-31 19:27:36.608] [renderer1] [warning] UNRESPONSIVE extension host, 'batisteo.vscode-django' took 100% of 2744.295ms, saved PROFILE here: '/tmp/exthost-69fcfd.cpuprofile' [{"id":"batisteo.vscode-django","total":2744106,"percentage":100}]
+[2020-07-31 19:27:44.038] [renderer1] [error] [ms-python.python]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python: Error: [ms-python.python]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+	at a (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:594:75)
+	at Object.t.checkProposedApiEnabled (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:594:437)
+	at Object.get activeNotebookEditor [as activeNotebookEditor] (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:925:680)
+	at u.get activeNotebookEditor [as activeNotebookEditor] (/home/tomicp/.vscode-oss/extensions/ms-python.python-2020.7.0/out/client/extension.js:46:525796)
+	at g.provideCodeLenses (/home/tomicp/.vscode-oss/extensions/ms-python.python-2020.7.0/out/client/extension.js:48:226369)
+	at /usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:666:744
+	at /usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:51:761
+	at new Promise (<anonymous>)
+	at Object.t.asPromise (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:51:733)
+	at _.provideCodeLenses (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:666:715)
+	at /usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:687:816
+	at K._withAdapter (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:686:499)
+	at K.$provideCodeLenses (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:687:794)
+	at m._doInvokeHandler (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:801:683)
+	at m._invokeHandler (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:801:375)
+	at m._receiveRequest (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:799:953)
+	at m._receiveOneMessage (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:798:832)
+	at /usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:797:34
+	at l.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:45:801)
+	at v.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:235:849)
+	at /usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:975:744
+	at l.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:45:801)
+	at v.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:235:849)
+	at t.PersistentProtocol._receiveMessage (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:240:276)
+	at /usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:237:357
+	at l.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:45:801)
+	at p.acceptChunk (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:233:393)
+	at /usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:232:753
+	at Socket.t (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:241:826)
+	at Socket.emit (events.js:203:13)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:276:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2020-07-31 19:27:44.149] [renderer1] [error] Failed to execute git
+[2020-07-31 19:27:46.989] [renderer1] [error] [ms-python.python]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python: Error: [ms-python.python]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+	at a (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:594:75)
+	at Object.t.checkProposedApiEnabled (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:594:437)
+	at Object.get activeNotebookEditor [as activeNotebookEditor] (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:925:680)
+	at u.get activeNotebookEditor [as activeNotebookEditor] (/home/tomicp/.vscode-oss/extensions/ms-python.python-2020.7.0/out/client/extension.js:46:525796)
+	at g.provideCodeLenses (/home/tomicp/.vscode-oss/extensions/ms-python.python-2020.7.0/out/client/extension.js:48:226369)
+	at /usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:666:744
+	at /usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:51:761
+	at new Promise (<anonymous>)
+	at Object.t.asPromise (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:51:733)
+	at _.provideCodeLenses (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:666:715)
+	at /usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:687:816
+	at K._withAdapter (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:686:499)
+	at K.$provideCodeLenses (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:687:794)
+	at m._doInvokeHandler (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:801:683)
+	at m._invokeHandler (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:801:375)
+	at m._receiveRequest (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:799:953)
+	at m._receiveOneMessage (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:798:832)
+	at /usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:797:34
+	at l.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:45:801)
+	at v.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:235:849)
+	at /usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:975:744
+	at l.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:45:801)
+	at v.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:235:849)
+	at t.PersistentProtocol._receiveMessage (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:240:276)
+	at /usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:237:357
+	at l.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:45:801)
+	at p.acceptChunk (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:233:393)
+	at /usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:232:753
+	at Socket.t (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:241:826)
+	at Socket.emit (events.js:203:13)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:276:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2020-07-31 19:28:22.923] [renderer1] [error] [ms-python.python]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python: Error: [ms-python.python]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+	at a (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:594:75)
+	at Object.t.checkProposedApiEnabled (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:594:437)
+	at Object.get activeNotebookEditor [as activeNotebookEditor] (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:925:680)
+	at u.get activeNotebookEditor [as activeNotebookEditor] (/home/tomicp/.vscode-oss/extensions/ms-python.python-2020.7.0/out/client/extension.js:46:525796)
+	at g.provideCodeLenses (/home/tomicp/.vscode-oss/extensions/ms-python.python-2020.7.0/out/client/extension.js:48:226369)
+	at /usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:666:744
+	at /usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:51:761
+	at new Promise (<anonymous>)
+	at Object.t.asPromise (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:51:733)
+	at _.provideCodeLenses (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:666:715)
+	at /usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:687:816
+	at K._withAdapter (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:686:499)
+	at K.$provideCodeLenses (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:687:794)
+	at m._doInvokeHandler (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:801:683)
+	at m._invokeHandler (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:801:375)
+	at m._receiveRequest (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:799:953)
+	at m._receiveOneMessage (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:798:832)
+	at /usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:797:34
+	at l.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:45:801)
+	at v.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:235:849)
+	at /usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:975:744
+	at l.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:45:801)
+	at v.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:235:849)
+	at t.PersistentProtocol._receiveMessage (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:240:276)
+	at /usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:237:357
+	at l.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:45:801)
+	at p.acceptChunk (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:233:393)
+	at /usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:232:753
+	at Socket.t (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:241:826)
+	at Socket.emit (events.js:203:13)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:276:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2020-07-31 19:29:16.989] [renderer1] [error] Cannot read property 'getCell' of undefined: TypeError: Cannot read property 'getCell' of undefined
+    at Object.t.convertLinkRangeToBuffer (file:///usr/share/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:3396:362)
+    at g._provideLinks (file:///usr/share/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:4355:537)
+    at g.provideLinks (file:///usr/share/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:3395:508)
+    at /usr/share/vscodium-bin/resources/app/node_modules.asar/xterm/lib/xterm.js:1:242351
+    at Array.forEach (<anonymous>)
+    at t._askForLink (/usr/share/vscodium-bin/resources/app/node_modules.asar/xterm/lib/xterm.js:1:242213)
+    at t._onHover (/usr/share/vscodium-bin/resources/app/node_modules.asar/xterm/lib/xterm.js:1:241908)
+    at t._onMouseMove (/usr/share/vscodium-bin/resources/app/node_modules.asar/xterm/lib/xterm.js:1:241768)
+[2020-07-31 19:29:42.910] [renderer1] [error] Cannot read property 'getCell' of undefined: TypeError: Cannot read property 'getCell' of undefined
+    at Object.t.convertLinkRangeToBuffer (file:///usr/share/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:3396:362)
+    at g._provideLinks (file:///usr/share/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:4355:537)
+    at g.provideLinks (file:///usr/share/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:3395:508)
+    at /usr/share/vscodium-bin/resources/app/node_modules.asar/xterm/lib/xterm.js:1:242351
+    at Array.forEach (<anonymous>)
+    at t._askForLink (/usr/share/vscodium-bin/resources/app/node_modules.asar/xterm/lib/xterm.js:1:242213)
+    at t._onHover (/usr/share/vscodium-bin/resources/app/node_modules.asar/xterm/lib/xterm.js:1:241908)
+    at t._onMouseMove (/usr/share/vscodium-bin/resources/app/node_modules.asar/xterm/lib/xterm.js:1:241768)
+[2020-07-31 19:29:47.664] [renderer1] [error] Cannot read property 'getCell' of undefined: TypeError: Cannot read property 'getCell' of undefined
+    at Object.t.convertLinkRangeToBuffer (file:///usr/share/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:3396:362)
+    at g._provideLinks (file:///usr/share/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:4355:537)
+    at g.provideLinks (file:///usr/share/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:3395:508)
+    at /usr/share/vscodium-bin/resources/app/node_modules.asar/xterm/lib/xterm.js:1:242351
+    at Array.forEach (<anonymous>)
+    at t._askForLink (/usr/share/vscodium-bin/resources/app/node_modules.asar/xterm/lib/xterm.js:1:242213)
+    at t._onHover (/usr/share/vscodium-bin/resources/app/node_modules.asar/xterm/lib/xterm.js:1:241908)
+    at t._onMouseMove (/usr/share/vscodium-bin/resources/app/node_modules.asar/xterm/lib/xterm.js:1:241768)
+[2020-07-31 19:29:52.280] [renderer1] [error] Cannot read property 'getCell' of undefined: TypeError: Cannot read property 'getCell' of undefined
+    at Object.t.convertLinkRangeToBuffer (file:///usr/share/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:3396:362)
+    at g._provideLinks (file:///usr/share/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:4355:537)
+    at g.provideLinks (file:///usr/share/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:3395:508)
+    at /usr/share/vscodium-bin/resources/app/node_modules.asar/xterm/lib/xterm.js:1:242351
+    at Array.forEach (<anonymous>)
+    at t._askForLink (/usr/share/vscodium-bin/resources/app/node_modules.asar/xterm/lib/xterm.js:1:242213)
+    at t._onHover (/usr/share/vscodium-bin/resources/app/node_modules.asar/xterm/lib/xterm.js:1:241908)
+    at t._onMouseMove (/usr/share/vscodium-bin/resources/app/node_modules.asar/xterm/lib/xterm.js:1:241768)
+[2020-07-31 19:30:10.296] [renderer1] [error] Cannot read property 'getCell' of undefined: TypeError: Cannot read property 'getCell' of undefined
+    at Object.t.convertLinkRangeToBuffer (file:///usr/share/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:3396:362)
+    at g._provideLinks (file:///usr/share/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:4355:537)
+    at g.provideLinks (file:///usr/share/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:3395:508)
+    at /usr/share/vscodium-bin/resources/app/node_modules.asar/xterm/lib/xterm.js:1:242351
+    at Array.forEach (<anonymous>)
+    at t._askForLink (/usr/share/vscodium-bin/resources/app/node_modules.asar/xterm/lib/xterm.js:1:242213)
+    at t._onHover (/usr/share/vscodium-bin/resources/app/node_modules.asar/xterm/lib/xterm.js:1:241908)
+    at t._onMouseMove (/usr/share/vscodium-bin/resources/app/node_modules.asar/xterm/lib/xterm.js:1:241768)
+[2020-07-31 19:30:14.135] [renderer1] [error] Cannot read property 'getCell' of undefined: TypeError: Cannot read property 'getCell' of undefined
+    at Object.t.convertLinkRangeToBuffer (file:///usr/share/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:3396:362)
+    at g._provideLinks (file:///usr/share/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:4355:537)
+    at g.provideLinks (file:///usr/share/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:3395:508)
+    at /usr/share/vscodium-bin/resources/app/node_modules.asar/xterm/lib/xterm.js:1:242351
+    at Array.forEach (<anonymous>)
+    at t._askForLink (/usr/share/vscodium-bin/resources/app/node_modules.asar/xterm/lib/xterm.js:1:242213)
+    at t._onHover (/usr/share/vscodium-bin/resources/app/node_modules.asar/xterm/lib/xterm.js:1:241908)
+    at t._onMouseMove (/usr/share/vscodium-bin/resources/app/node_modules.asar/xterm/lib/xterm.js:1:241768)
