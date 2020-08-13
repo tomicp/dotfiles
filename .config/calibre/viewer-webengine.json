@@ -22,55 +22,21 @@
     "standalone_recently_opened": [
       {
         "authors": [
-          "Michael Hartl"
+          "Mark Summerfield"
         ], 
-        "key": "/home/tomicp/Videos/Tutorials/M. Hartl - The Ruby on Rails Tutorial/ruby_on_rails_tutorial_solutions_manual.epub", 
-        "pathtoebook": "/home/tomicp/Videos/Tutorials/M. Hartl - The Ruby on Rails Tutorial/ruby_on_rails_tutorial_solutions_manual.epub", 
-        "timestamp": "2020-07-25T15:45:03.550Z", 
-        "title": "Ruby on Rails Tutorial Solutions Manual for Exercises"
+        "key": "/home/tomicp/Documents/eBooks/Go/Programming in Go.epub", 
+        "pathtoebook": "/home/tomicp/Documents/eBooks/Go/Programming in Go.epub", 
+        "timestamp": "2020-08-12T21:40:44.440Z", 
+        "title": "Programming in Go: Creating Applications for the 21st Century (Richard Stout's Library)"
       }, 
       {
         "authors": [
-          "Ruby on Rails"
+          "Borislav Pekić"
         ], 
-        "key": "/home/tomicp/Calibre Library/Ruby on Rails/Ruby on Rails Guides v2 (3)/Ruby on Rails Guides v2 - Ruby on Rails.mobi", 
-        "pathtoebook": "/home/tomicp/Calibre Library/Ruby on Rails/Ruby on Rails Guides v2 (3)/Ruby on Rails Guides v2 - Ruby on Rails.mobi", 
-        "timestamp": "2020-07-25T10:13:39.104Z", 
-        "title": "Ruby on Rails Guides  v2"
-      }, 
-      {
-        "authors": [
-          "Guthals", 
-          "Phil Haack"
-        ], 
-        "key": "/home/tomicp/Calibre Library/Guthals/GitHub For Dummies (2)/GitHub For Dummies - Guthals.epub", 
-        "pathtoebook": "/home/tomicp/Calibre Library/Guthals/GitHub For Dummies (2)/GitHub For Dummies - Guthals.epub", 
-        "timestamp": "2020-07-18T21:30:32.240Z", 
-        "title": "GitHub For Dummies"
-      }, 
-      {
-        "authors": [
-          "John Schember"
-        ], 
-        "key": "/home/tomicp/Calibre Library/John Schember/Quick Start Guide (1)/Quick Start Guide - John Schember.epub", 
-        "pathtoebook": "/home/tomicp/Calibre Library/John Schember/Quick Start Guide (1)/Quick Start Guide - John Schember.epub", 
-        "timestamp": "2020-07-18T21:28:18.118Z", 
-        "title": "Quick Start Guide"
-      }, 
-      {
-        "key": "/home/tomicp/Arhiva/MyDocs/CV.docx", 
-        "pathtoebook": "/home/tomicp/Arhiva/MyDocs/CV.docx", 
-        "timestamp": "2020-07-18T19:09:58.671Z", 
-        "title": "CV"
-      }, 
-      {
-        "authors": [
-          "Borislav Pekic"
-        ], 
-        "key": "/home/tomicp/Documents/Pekic/Vreme cuda - Borislav Pekic.epub", 
-        "pathtoebook": "/home/tomicp/Documents/Pekic/Vreme cuda - Borislav Pekic.epub", 
-        "timestamp": "2020-07-16T20:38:04.337Z", 
-        "title": "Vreme cuda"
+        "key": "/home/tomicp/Documents/Pekic/Borislav Pekic - 1999.epub", 
+        "pathtoebook": "/home/tomicp/Documents/Pekic/Borislav Pekic - 1999.epub", 
+        "timestamp": "2020-08-12T21:39:11.154Z", 
+        "title": "1999"
       }, 
       {
         "authors": [
@@ -78,27 +44,8 @@
         ], 
         "key": "/home/tomicp/Documents/Pekic/Novi Jerusalim - Borislav Pekic.azw3", 
         "pathtoebook": "/home/tomicp/Documents/Pekic/Novi Jerusalim - Borislav Pekic.azw3", 
-        "timestamp": "2020-07-16T20:37:49.758Z", 
+        "timestamp": "2020-08-12T21:38:52.481Z", 
         "title": "Novi Jerusalim"
-      }, 
-      {
-        "authors": [
-          "Ruby on Rails"
-        ], 
-        "key": "/home/tomicp/Documents/eBooks/ruby_on_rails_guides_v6.0.3.1.mobi", 
-        "pathtoebook": "/home/tomicp/Documents/eBooks/ruby_on_rails_guides_v6.0.3.1.mobi", 
-        "timestamp": "2020-07-16T20:36:16.418Z", 
-        "title": "Ruby on Rails Guides  v2"
-      }, 
-      {
-        "authors": [
-          "Scott Chacon", 
-          "Ben Straub"
-        ], 
-        "key": "/home/tomicp/Documents/eBooks/progit.epub", 
-        "pathtoebook": "/home/tomicp/Documents/eBooks/progit.epub", 
-        "timestamp": "2020-07-16T20:31:56.365Z", 
-        "title": "Pro Git"
       }, 
       {
         "authors": [
@@ -106,7 +53,7 @@
         ], 
         "key": "/home/tomicp/Documents/Pekic/Vreme cuda - Borislav Pekic.mobi", 
         "pathtoebook": "/home/tomicp/Documents/Pekic/Vreme cuda - Borislav Pekic.mobi", 
-        "timestamp": "2020-07-16T20:18:51.889Z", 
+        "timestamp": "2020-08-12T21:35:16.452Z", 
         "title": "Vreme cuda"
       }
     ]

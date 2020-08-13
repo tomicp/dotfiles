@@ -99,7 +99,7 @@
 		<Setting name="Icon theme">default</Setting>
 		<Setting name="Icon scale">125</Setting>
 		<Setting name="Timestamp in message log">0</Setting>
-		<Setting name="Sitemanager last selected">0/ANONIMOUS</Setting>
+		<Setting name="Sitemanager last selected">0/OMV</Setting>
 		<Setting name="Local filelist shown columns">1111</Setting>
 		<Setting name="Remote filelist shown columns">111111</Setting>
 		<Setting name="Local filelist column order">0,1,2,3</Setting>
@@ -146,16 +146,18 @@
 					<Port>21</Port>
 					<Protocol>0</Protocol>
 					<Type>0</Type>
-					<Logontype>0</Logontype>
+					<User>tomicp</User>
+					<Pass encoding="base64">dGgwcmxhayQkMG4=</Pass>
+					<Logontype>1</Logontype>
 					<TimezoneOffset>0</TimezoneOffset>
 					<PasvMode>MODE_DEFAULT</PasvMode>
 					<MaximumMultipleConnections>0</MaximumMultipleConnections>
 					<EncodingType>Auto</EncodingType>
 					<BypassProxy>0</BypassProxy>
-					<Name>ANONIMOUS</Name>
-					<Site>0/ANONIMOUS</Site>
-					<RemotePath>1 0</RemotePath>
-					<LocalPath>/home/tomicp/Videos/Tutorials/Python/</LocalPath>
+					<Name>OMV</Name>
+					<Site>0/OMV</Site>
+					<RemotePath>1 0 3 LSD 18 Stambena zajednica 4 2020</RemotePath>
+					<LocalPath>/home/tomicp/Downloads/</LocalPath>
 				</Tab>
 			</Tabs>
 		</Setting>

@@ -2,6 +2,8 @@
     "telemetry.machineId": "ebba9f7df89fcfbe7efbd44394139265f9b84d4a81af2ddabc5c843ee5fd008a",
     "openedPathsList": {
         "workspaces3": [
+            "file:///home/tomicp/Works/development",
+            "file:///home/tomicp/Videos",
             "file:///home/tomicp/Works/development/rp-portfolio",
             "file:///home/tomicp/Works/materials/rp-portfolio",
             "file:///home/tomicp/PycharmProjects/Invoice_2020",
@@ -11,8 +13,8 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/tomicp/Works/development/rp-portfolio",
-            "backupPath": "/home/tomicp/.config/Code - OSS/Backups/96678987471162853231f09a4c6a6037",
+            "folder": "file:///home/tomicp/Works/development",
+            "backupPath": "/home/tomicp/.config/Code - OSS/Backups/75283a902e0d8419caef34ffce48bf8e",
             "uiState": {
                 "mode": 1,
                 "x": 6,
@@ -1443,5 +1445,5 @@
     },
     "theme": "vs-dark",
     "themeBackground": "#1e1e1e",
-    "pickerWorkingDir": "/home/tomicp/Works/development"
+    "pickerWorkingDir": "/home/tomicp/Works"
 }
