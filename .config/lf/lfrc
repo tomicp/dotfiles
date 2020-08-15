@@ -8,19 +8,7 @@ set icons
 set period 1
 set hidden!
 
-set previewer ~/.local/bin/scripts/preview
-
-#$lf -remote "send $id set previewer ${XDG_CONFIG_HOME:-$HOME/.config}/lf/scope"
-
-# Custom Functions
-#cmd open ${{
-#    case $(file --mime-type "$f" -bL) in
-#        text/*|application/json) $EDITOR "$f";;
-#        video/*|image/*/application/pdf) xdg-open "$f";;
-#	application/mobi*|application/octet-stream) setsid -f ebook-viewer "$f" >/dev/null 2>&1 ;;
-#        *) xdg-open "$f" ;;
-#    esac
-#}}
+$lf -remote "send $id set previewer ${XDG_CONFIG_HOME:-$HOME/.config}/lf/scope"
 
 cmd open ${{
     case $(file --mime-type $f -bL) in

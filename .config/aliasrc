@@ -9,7 +9,7 @@ alias \
 	mv="mv -iv" \
 	rm="rm -vI" \
 	mkd="mkdir -pv" \
-	yt="youtube-dl --add-metadata -i" \
+	yt="youtube-dl -o '%(title)s.%(ext)s' --add-metadata -i " \
 	yta="yt -x -f bestaudio/best" \
 	ffmpeg="ffmpeg -hide_banner" \
 	dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
@@ -51,4 +51,4 @@ alias \
 	upd-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg" \
 	errors="journalctl -p 3 -xb" \
 	remove="sudo pacman -Rns" \
-	bpp="pacman -Qq | fzf --preview 'pacman -Qil {}' --layout=reverse --bind 'enter:execute(pacman -Qil {} | less)'"
+	bpp="pacman -Qq | fzf --preview 'pacman -Qil {}' --layout=reverse --bind 'enter:execute(pacman -Qil {} | less)'" \

@@ -1,3 +1,0 @@
-import django
--. . -..- - / . -. - .-. -.--
-python(django__version__)
