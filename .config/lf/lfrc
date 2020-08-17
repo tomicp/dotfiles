@@ -195,16 +195,16 @@ map gtr cd ~/.local/share/Trash/files
 map gv cd ~/Videos
 
 map gp cd ~/Pictures
-map gw cd ~/Pictures/Wallpapers
+map gw cd ~/Works
+map gW cd ~/Pictures/Wallpapers
 
 map gd cd ~/Documents
 
 map gD cd ~/Downloads
 map gM cd ~/Desktop
 
-map gl. cd ~/.local
-map glb cd ~/.local/bin
-map gls cd ~/.local/src
+map gsc cd ~/.local/bin
+map gsr cd ~/.local/src
 
 map gc. cd ~/.config
 map gcl cd ~/.config/lf

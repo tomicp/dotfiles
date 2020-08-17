@@ -1,4 +1,3 @@
-let mapleader =","
 
 if ! filereadable(system('echo -n "${XDG_CONFIG_HOME:-$HOME/.config}/nvim/autoload/plug.vim"'))
 	echo "Downloading junegunn/vim-plug to manage plugins..."
@@ -8,20 +7,16 @@ if ! filereadable(system('echo -n "${XDG_CONFIG_HOME:-$HOME/.config}/nvim/autolo
 endif
 
 call plug#begin(system('echo -n "${XDG_CONFIG_HOME:-$HOME/.config}/nvim/plugged"'))
-"Plug 'tpope/vim-surround'
-"Plug 'preservim/nerdtree'
-Plug 'junegunn/goyo.vim'
-"Plug 'PotatoesMaster/i3-vim-syntax'
+Plug 'tpope/vim-surround'
 Plug 'jreybert/vimagit'
-"Plug 'lukesmithxyz/vimling'
 "Plug 'vimwiki/vimwiki'
 Plug 'bling/vim-airline'
 Plug 'tpope/vim-commentary'
 Plug 'kovetskiy/sxhkd-vim'
 Plug 'ap/vim-css-color'
-Plug 'arcticicestudio/nord-vim'
-" Use release branch (recommend)
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+"Plug 'arcticicestudio/nord-vim'
+"Plug 'tomasiser/vim-code-dark'
+Plug 'drewtempelmeyer/palenight.vim'
 call plug#end()
 
 "set bg=light
@@ -47,15 +42,18 @@ set cursorline
 	set number relativenumber
 
 " set colorsheme
-	colorscheme nord
+	"colorscheme nord
 	"colorscheme onedark
 	"colorscheme afterglow
 	"colorscheme one
-	"let g:airline_theme='purify'
+	let g:airline_theme='palenight'
 	"let g:purify_italic = 0
 	"colorscheme purify
+	"colorscheme codedark
+	colorscheme palenight
 " Enable autocompletion:
 	set wildmode=longest,list,full
+
 " Disables automatic commenting on newline:
 	autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 

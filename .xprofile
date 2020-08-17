@@ -13,7 +13,7 @@ xwallpaper --zoom ~/Pictures/Wallpapers/ARW.jpg
 picom -b --config ~/.config/picom/picom.conf
 dunst &			# dunst for notifications
 unclutter &		# Remove mouse when idle
-#setxkbmap -layout us,ba,rs -option grp:alt_shift_toggle
+setxkbmap -layout us,ba,rs -option grp:alt_shift_toggle
 #
 #xss-lock --transfer-sleep-lock -- ~/.config/i3lock-blur/lock.sh --nofork &
 #xautolock -time 5 -locker ~/.config/i3lock-blur-master/lock.sh &
