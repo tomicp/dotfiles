@@ -125,5 +125,3 @@ source /home/tomicp/.config/zsh/plugins/fast-syntax-highlighting/fast-syntax-hig
 #source /home/tomicp/.config/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 bindkey '^[[A' history-substring-search-up
 bindkey '^[[B' history-substring-search-down
-
-source /home/tomicp/.config/broot/launcher/bash/br
