@@ -28,6 +28,10 @@ HIGHLIGHT_SIZE_MAX=262143  # 256KiB
 HIGHLIGHT_TABWIDTH=8
 HIGHLIGHT_STYLE='darkplus'
 
+case "$1" in
+    	*.zsh*) pistol "$1";;
+esac
+
 handle_mime() {
     local mimetype="${1}"
     case "${mimetype}" in
@@ -51,7 +55,6 @@ handle_mime() {
         *opendocument*) odt2txt "${FILE_PATH}" ;;
     esac
 }
-
 MIMETYPE="$( file --dereference --brief --mime-type -- "${FILE_PATH}" )"
 handle_mime "${MIMETYPE}"
 exit 1
