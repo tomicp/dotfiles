@@ -126,6 +126,16 @@ cmd restore_trash ${{
   trash-restore
 }}
 
+cmd moveto ${{
+	clear; tput cup $(($(tput lines)/3)); tput bold
+	set -f
+	clear; echo "Move to where?"
+	dest="$(cut -d'	' -f2- ${XDG_CONFIG_HOME:-$HOME/.config}/directories | fzf | sed 's|~|$HOME|' )" &&
+	for x in $fx; do
+		eval mv -iv \"$x\" \"$dest\"
+	done &&
+	notify-send "🚚 File(s) moved." "File(s) moved to $dest."
+}}
 #cmd stripspace %stripspace "$f"
 
 # Bindings
@@ -135,7 +145,7 @@ map o
 map n
 map "'"
 map '"'
-map d
+# map d
 map c
 map e
 map f
@@ -152,7 +162,7 @@ map ab targz
 map au unarchive
 
 # Trash Mappings
-map dd trash
+map tt trash
 map tc clear_trash
 map tr restore_trash
 
@@ -173,6 +183,7 @@ map DD delete
 map p paste
 map x cut
 map y copy
+map M moveto
 map <enter> open
 map mf mkfile
 map mr sudomkfile
@@ -204,7 +215,7 @@ map gD cd ~/Downloads
 map gM cd ~/Desktop
 
 map gsc cd ~/.local/bin
-map gsr cd ~/.local/src
+map gsr cd ~/Templates/src
 
 map gc. cd ~/.config
 map gcl cd ~/.config/lf
