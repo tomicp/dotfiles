@@ -17,17 +17,14 @@ cmd open ${{
 	image/x-xcf|image/svg+xml) setsid -f gimp $f >/dev/null 2>&1 ;;
 	image/*) rotdir $f | grep -i "\.\(png\|jpg\|jpeg\|gif\|webp\|tif\)\(_large\)*$" | sxiv -aio 2>/dev/null | lf-select ;;
 	audio/*) mpv --audio-display=no $f ;;
+	# audio/*) mocp -q -p $f ;;
 	video/*) setsid -f mpv $f -quiet >/dev/null 2>&1 ;;
 	application/epub*|application/octet-stream) setsid -f ebook-viewer $fx >/dev/null 2>&1 ;;
         *) for f in $fx; do setsid -f $OPENER $f >/dev/null 2>&1; done;;
     esac
 }}
 
-cmd mkdir ${{
-  printf "Directory Name: "
-  read ans
-  mkdir $ans
-}}
+cmd mkdir $mkdir -p "$(echo $* | tr ' ' '\ ')"
 
 cmd mkfile ${{
   printf "File Name: "
@@ -141,8 +138,8 @@ cmd moveto ${{
 # Bindings
 # Remove some defaults
 map m
-map o
-map n
+# map o
+# map n
 map "'"
 map '"'
 # map d
@@ -184,14 +181,14 @@ map p paste
 map x cut
 map y copy
 map M moveto
-map <enter> open
+map <enter> shell
 map mf mkfile
 map mr sudomkfile
 map md mkdir
 map ms $mkscript
 map ch chmod
 map bg setwallpaper
-map o open_config
+# map o open_config
 map br $vimv $fx
 map r rename
 map H top

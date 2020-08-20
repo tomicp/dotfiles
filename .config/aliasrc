@@ -12,7 +12,7 @@ alias \
 	yt="youtube-dl -o '%(title)s.%(ext)s' --add-metadata -i " \
 	yta="yt -x -f bestaudio/best" \
 	ffmpeg="ffmpeg -hide_banner" \
-	dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
+	gdot="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
 
 # Colorize commands when possible.
 # ls="ls -hN --color=auto --group-directories-first" \
@@ -52,3 +52,4 @@ alias \
 	errors="journalctl -p 3 -xb" \
 	remove="sudo pacman -Rns" \
 	bpp="pacman -Qq | fzf --preview 'pacman -Qil {}' --layout=reverse --bind 'enter:execute(pacman -Qil {} | less)'" \
+	mirrors="sudo reflector --verbose --latest 25 --sort rate --save /etc/pacman.d/mirrorlist"

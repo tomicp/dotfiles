@@ -29,7 +29,7 @@ HIGHLIGHT_TABWIDTH=8
 HIGHLIGHT_STYLE='darkplus'
 
 case "$1" in
-    	*.zsh*) pistol "$1";;
+    	*.zsh*|*.tar.gz*) pistol "$1";;
 esac
 
 handle_mime() {
