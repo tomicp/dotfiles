@@ -184,7 +184,7 @@ map M moveto
 map <enter> shell
 map mf mkfile
 map mr sudomkfile
-map md mkdir
+map md push :mkdir<space>
 map ms $mkscript
 map ch chmod
 map bg setwallpaper

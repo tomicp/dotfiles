@@ -1,7 +1,8 @@
 #!/bin/sh
 
 # Use neovim for vim if present.
-command -v nvim >/dev/null && alias vim="nvim" vimdiff="nvim -d"
+# command -v nvim >/dev/null && alias vim="nvim" vimdiff="nvim -d"
+command -v nvim >/dev/null && alias vimdiff="nvim -d"
 
 # Verbosity and settings that you pretty much just always are going to want.
 alias \
@@ -11,8 +12,7 @@ alias \
 	mkd="mkdir -pv" \
 	yt="youtube-dl -o '%(title)s.%(ext)s' --add-metadata -i " \
 	yta="yt -x -f bestaudio/best" \
-	ffmpeg="ffmpeg -hide_banner" \
-	gdot="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
+	ffmpeg="ffmpeg -hide_banner"
 
 # Colorize commands when possible.
 # ls="ls -hN --color=auto --group-directories-first" \
@@ -20,6 +20,7 @@ alias \
 	ls="exa --icons --group-directories-first" \
 	la="exa --icons --group-directories-first -la" \
 	grep="grep --color=auto" \
+	free="free -h" \
 	diff="diff --color=auto" \
 	ccat="highlight --out-format=ansi"
 
@@ -34,10 +35,11 @@ alias \
 	e="$EDITOR" \
 	v="$EDITOR" \
 	p="sudo pacman" \
-	xi="sudo xbps-install" \
-	xr="sudo xbps-remove -R" \
-	xq="xbps-query" \
-	z="zathura"
+	dosbox="dosbox -conf "$XDG_CONFIG_HOME"/dosbox/dosbox.conf" \
+	z="zathura" \
+	mocp="mocp -M "$XDG_CONFIG_HOME"/moc" \
+	gdot="/usr/bin/git --git-dir=$XDG_CONFIG_HOME/dotfiles/ --work-tree=$HOME" \
+	cap="flameshot gui"
 
 alias \
 	magit="nvim -c MagitOnly" \
