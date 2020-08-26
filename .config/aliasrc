@@ -37,7 +37,6 @@ alias \
 	p="sudo pacman" \
 	dosbox="dosbox -conf "$XDG_CONFIG_HOME"/dosbox/dosbox.conf" \
 	z="zathura" \
-	mocp="mocp -M "$XDG_CONFIG_HOME"/moc" \
 	gdot="/usr/bin/git --git-dir=$XDG_CONFIG_HOME/dotfiles/ --work-tree=$HOME" \
 	cap="flameshot gui"
 
