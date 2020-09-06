@@ -1,7 +1,7 @@
 {
   "main_window_geometry": {
     "__class__": "bytearray", 
-    "__value__": "AdnQywADAAAAAAAEAAAAFwAAAroAAAMZAAAABQAAABgAAAK5AAADGAAAAAAAAAAABQAAAAAFAAAAGAAAArkAAAMY"
+    "__value__": "AdnQywADAAAAAAAFAAAAGAAAArkAAAMYAAAABQAAABgAAAK5AAADGAAAAAAAAAAABQAAAAAFAAAAGAAAArkAAAMY"
   }, 
   "main_window_state": {
     "__class__": "bytearray", 
@@ -20,6 +20,16 @@
       "singleinstance": false
     }, 
     "standalone_recently_opened": [
+      {
+        "authors": [
+          "Guthals", 
+          "Phil Haack"
+        ], 
+        "key": "/home/tomicp/Calibre Library/Guthals/GitHub For Dummies (2)/GitHub For Dummies - Guthals.epub", 
+        "pathtoebook": "/home/tomicp/Calibre Library/Guthals/GitHub For Dummies (2)/GitHub For Dummies - Guthals.epub", 
+        "timestamp": "2020-08-31T19:15:43.861Z", 
+        "title": "GitHub For Dummies"
+      }, 
       {
         "authors": [
           "Ruby on Rails"
