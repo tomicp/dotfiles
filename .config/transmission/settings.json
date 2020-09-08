@@ -32,7 +32,7 @@
     "main-window-x": 5,
     "main-window-y": 24,
     "message-level": 2,
-    "open-dialog-dir": "/home/tomicp",
+    "open-dialog-dir": "/home/tomicp/Downloads",
     "peer-congestion-algorithm": "",
     "peer-id-ttl-hours": 6,
     "peer-limit-global": 200,

@@ -8,7 +8,7 @@
 show_thumbnail=1
 
 [Window]
-width=1268
+width=567
 height=769
 maximized=0
 
@@ -438,8 +438,10 @@ text_dlg-x=500
 text_dlg-y=227
 text_dlg-z=683
 panel1_show_dirtree0-b=1
+app_dlg-s=444
 app_dlg-x=600
 app_dlg-y=600
+app_dlg-z=395
 panel1_list_large0-b=1
 file_dlg-x=693
 file_dlg-y=769
