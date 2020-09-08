@@ -1,0 +1,61 @@
+# Make all journal files contain no data older than 2 weeks
+journalctl --vacuum-time=2weeks
+# For recursively removing orphans and their configuration files:
+pacman -Rns $(pacman -Qtdq)
+# Query/Set default file manager
+xdg-mime query default inode/directory
+xdg-mime default pcmanfm.desktop inode/directory
+# Mount ISO image
+cdemu load 0 ~/iso.iso
+# Find largest 20 files
+sudo du -a /var | sort -n -r | head -n 20
+# Install packages from cache
+sudo pacman -U /var/cache/pacman/pgk/something.pkg.tar.xz
+# List the 20 last installed packages
+expac --timefmt='%Y-%m-%d %T' '%l\t%n' | sort | tail -n 20
+# Rsync
+rsync drva1.jpg tomicp@omv.local::LocalStorage/Sync
+# Using dynamic disk allocation with Kernel Virtual Machine
+sudo qemu-img create -f qcow2 /var/lib/libvirt/images/ubuntu-vm.qcow2 30G
+# WiFi info
+sudo iwlist wlan0 scan | grep \(Channel
+# Activate wifi
+nmcli radio wifi on
+# Use nmcli to show the available wireless networks SSID, mode, channel, transfer rate, signal strength, bars and security
+nmcli dev wifi
+nmcli -f ALL dev wifi
+# Scan for open ports
+sudo nmap -sS -A --open --top-ports 5 192.168.0.21
+# System Info
+hostnamectl
+# List all installed packages unrequired by other packages, and which are not in the base meta package or base-devel package group, with description
+expac -H M '%-20n\t%10d' $(comm -23 <(pacman -Qqt | sort) <({ pacman -Qqg base-devel; expac -l '\n' '%E' base; } | sort -u))
+# Extract the audio from the video without re-encoding it.
+ffmpeg -i myvideo.mp4 -vn -acodec copy audio.ogg
+# Extract only a portion of the audio from a video, using the same audio format used by the original source.
+# (-ss is the start of the extracted audio timestamp, and -t is the audio duration).
+ffmpeg -i myvideo.mp4 -ss 00:00:00 -t 00:00:00.0 -vn -acodec copy audio.ogg
+# ImageMagic screenshot
+import -window root screenshot.jpg
+# This utility combines two images and creates a new image
+composite -gravity south txt.png ARW.jpg bg2.jpg
+composite -geometry +100+100 image1.png image2.png compose.png
+# ImageMagic - Resize
+convert -quality 100 -resize 500x500 "input.png" "output.png"
+# ImageMagic - Awailable fonts
+convert -font list
+# ImageMagic - Add centered text to photo
+convert -font helvetica -fill white -pointsize 60 -gravity center -draw "text 0,300 'TEXT TO BE DISPLAYED'" Image_input.png Image_output.png
+# ImageMagic - Add text from textfile to photo
+convert bg.jpg -pointsize 34 -fill white -annotate +266+235 @mywords.txt bg_with_text.jpg
+# The following ImageMagick utility generates an image with the transparent background from the file basic
+cat basic | convert  -font helvetica -pointsize 14 -background none -fill white label:@- txt.png
+# Extract from text
+sed -n '16,48 p' orig-data-file > new-file
+# First n lines from file
+head -n 61 orig-data-file > new-file
+# Remote desktop connection
+xfreerdp +clipboard /u:tomicp@hotmail.rs /v:MHPC.local /size:1280x800 /bpp:24
+xfreerdp /u:root /v:192.168.0.166:5050 /size:1280x720 /bpp:24
+#
+Good commit message - “If applied, this commit will”

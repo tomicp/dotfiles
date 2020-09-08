@@ -1,0 +1,3 @@
+# vim: filetype=sh
+alias cac="cd ${XDG_CACHE_HOME:-$HOME/.cache} && ls -a" \
+bf="$EDITOR ${XDG_CONFIG_HOME:-$HOME/.config}/files" \
