@@ -55,7 +55,9 @@ sed -n '16,48 p' orig-data-file > new-file
 # First n lines from file
 head -n 61 orig-data-file > new-file
 # Remote desktop connection
-xfreerdp +clipboard /u:tomicp@hotmail.rs /v:MHPC.local /size:1280x800 /bpp:24
-xfreerdp /u:root /v:192.168.0.166:5050 /size:1280x720 /bpp:24
+xfreerdp +clipboard /u:tomicp@hotmail.rs /v:MHPC.local /size:1200x720 /bpp:24
+xfreerdp /u:root /v:192.168.0.166:5050 /size:1200x720 /bpp:24
 #
 Good commit message - “If applied, this commit will”
+# Unable to delete USB Drive partitions (Block size error)
+sudo dd if=/dev/zero of=/dev/sdX bs=2048 count=32

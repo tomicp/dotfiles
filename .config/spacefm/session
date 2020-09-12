@@ -9,7 +9,7 @@ show_thumbnail=1
 big_icon_size=72
 
 [Window]
-width=1268
+width=567
 height=769
 maximized=0
 
@@ -24,6 +24,7 @@ shadow=0,0,0
 [MOD]
 dev_root_mount-z=/usr/bin/udevil mount -o %o %v
 dev_root_unmount-z=/usr/bin/udevil umount %v
+dev_fmt_ntfs-s=/sbin/mkfs -t ntfs %v
 dev_show_internal_drives-b=2
 dev_show_empty-b=1
 dev_show_net-b=1

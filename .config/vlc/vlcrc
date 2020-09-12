@@ -1,5 +1,5 @@
 ﻿###
-###  vlc 3.0.11
+###  vlc 3.0.11.1
 ###
 
 ###
@@ -236,7 +236,7 @@ freetype-color=15586304
 #sout-avi-subject=
 
 # Encoder (string)
-#sout-avi-encoder=VLC Media Player - 3.0.11 Vetinari
+#sout-avi-encoder=VLC Media Player - 3.0.11.1 Vetinari
 
 # Keywords (string)
 #sout-avi-keywords=
@@ -1983,10 +1983,10 @@ subsdec-encoding=Windows-1250
 #sout-x264-stats=x264_2pass.log
 
 # Default preset setting used (string)
-#sout-x264-preset=
+sout-x264-preset=ultrafast
 
 # Default tune setting used (string)
-#sout-x264-tune=
+sout-x264-tune=film
 
 # x264 advanced options (string)
 #sout-x264-options=
@@ -2886,6 +2886,11 @@ subsdec-encoding=Windows-1250
 
 # High priority (boolean)
 #sout-transcode-high-priority=0
+
+[stream_out_chromaprint] # Chromaprint stream output
+
+# Duration of the fingerprinting (integer)
+#duration=90
 
 [mono] # Stereo to mono downmixer
 
