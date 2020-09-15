@@ -84,11 +84,19 @@ cmd open_config  ${{
 # Archive bindings
 cmd unarchive ${{
   case "$f" in
-      *.zip) unzip "$f" ;;
-      *.tar.gz) tar -xzvf "$f" ;;
-      *.tar.bz2) tar -xjvf "$f" ;;
-      *.tar) tar -xvf "$f" ;;
-      *) echo "Unsupported format" ;;
+	*.tar.bz2|*.tbz2) tar xvjf "$f" ;;
+	*.tar.xz) tar -xf "$f" ;;
+	*.tar.gz|*.tgz) tar xvzf "$f" ;;
+	*.lzma) unlzma "$f" ;;
+	*.bz2) bunzip2 "$f" ;;
+	*.rar) unrar x -ad "$f" >/dev/null ;;
+	*.gz) gunzip "$f" ;;
+	*.tar) tar xvf "$f" ;;
+	*.zip) unzip "$f" ;;
+	*.Z) uncompress "$f" ;;
+	*.7z) 7z x "$f" >/dev/null ;;
+	*.xz) unxz "$f" ;;
+	*.exe) cabextract "$f" ;;
   esac
 }}
 
