@@ -34,3 +34,5 @@ fi
 
 ~/.xprofile
 ssh-agent dwm
+# exec dwm
+# exec openbox-session

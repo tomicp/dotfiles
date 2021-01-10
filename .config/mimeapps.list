@@ -26,6 +26,9 @@ application/x-extension-html=firefox.desktop
 application/x-extension-shtml=firefox.desktop
 application/x-extension-xhtml=firefox.desktop
 application/x-extension-xht=firefox.desktop
+application/vnd.openxmlformats-officedocument.wordprocessingml.document=libreoffice-writer.desktop
+video/mp4=mpv.desktop
+inode/mount-point=pcmanfm.desktop
 
 [Added Associations]
 application/x-bittorrent=transmission-gtk.desktop;
@@ -42,3 +45,9 @@ application/x-extension-html=firefox.desktop;
 application/x-extension-shtml=firefox.desktop;
 application/x-extension-xhtml=firefox.desktop;
 application/x-extension-xht=firefox.desktop;
+application/vnd.openxmlformats-officedocument.wordprocessingml.document=libreoffice-writer.desktop;
+application/pdf=libreoffice-draw.desktop;org.gnome.Evince.desktop;
+video/mp4=mpv.desktop;
+video/x-matroska=vlc.desktop;
+text/x-nfo=nvim.desktop;
+inode/mount-point=pcmanfm.desktop;
